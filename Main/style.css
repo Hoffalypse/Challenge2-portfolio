@@ -64,6 +64,7 @@ a:link, a:visited {
     right:25%;
     font-size: x-large;
     font-style: italic;
+    border-radius: 15px;
     }
     
 .container{
