@@ -3,12 +3,6 @@
     --border: 10px solid rgb(73, 73, 102);
     --text-border: 4px dashed black;
 }
-body {
-    background-color: rgb(159, 157, 187);
-    border:0;
-    margin:0;
-    box-sizing: border-box;
-}
 
 header {
     background-color: rgb(73, 73, 102);
@@ -16,10 +10,20 @@ header {
     border: 10px solid black;
 }
 
+body {
+    background-color: rgb(159, 157, 187);
+    margin:0 auto;
+    box-sizing: border-box;
+    width:96vw;
+}
+
+
+
 link {
     display:contents;
 }
-/* Photo of myself in top right corner*/
+
+/* Photo of myself in top left corner*/
 #photo {
     border-radius: 15px;
     border:5px solid black;
@@ -50,8 +54,6 @@ h2 {
     font-size: 40px;
     text-align: left;
     margin-left: 13%;
-    
-    
 }
 
 li {
@@ -175,6 +177,7 @@ footer {
 .center {
     text-align: center;
     margin-right: 15%;
+    margin-bottom: 5%;
 }
 .spacing2 {
     display:flex;
