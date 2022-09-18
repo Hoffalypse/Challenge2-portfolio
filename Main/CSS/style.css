@@ -1,7 +1,7 @@
 :root {
     --shadow-box:10px 10px 8px black;
     --border: 10px solid rgb(50, 29, 168);
-    --text-border: 4px dashed black;
+   
 }
 
 header {
@@ -103,7 +103,11 @@ a:link, a:visited {
 .carousel {
     width:1000px;
     height:500px;
-    margin:auto
+    margin:auto;
+    border: var(--border);
+    background-color: rgb(50, 29, 168);
+    box-shadow: var(--shadow-box);
+    border-radius: 15px;
   }
 /*footer section containing contact information*/
 footer {
@@ -227,16 +231,9 @@ footer {
 }
 
     @media screen and (max-width:450px){
-        .textover {
-            left:25%;
-            margin-top: -5%;
-        }
-        .textover2{
-            left:38%;
-        }
-        .textover3{
-            left:38%;
-        }
+       .about-me{
+        font-size: 15px;
+       }
         #photo {
             margin-left: 38%;
         }
@@ -247,8 +244,8 @@ footer {
             left: 22%;
         }
         .carousel {
-            width: 250px;
-            height:125px;
+            width: 350px;
+            height: 175px;
             margin:auto
           }
         .about-me{
