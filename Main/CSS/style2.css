@@ -18,7 +18,7 @@ br {
     font-size: 24%;
   }
 .bg-img{
-    background-image: url(./img-files/background.jpg);
+    background-image: url(../img-files/background.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size:cover;
@@ -45,5 +45,12 @@ body{
     color:white;
     cursor: pointer;
     font-family: 'Cherry Cream Soda', cursive;
+    transition-duration: 0.4s;
+    
+}
+.button:hover {
+    color: #27CFFF;
+    border-color:#27CFFF ;
+    box-shadow: 10px 12px 16px 0 rgba(0,0,0,0.24), 10px 17px 50px 0 rgba(0,0,0,0.19);
     
 }

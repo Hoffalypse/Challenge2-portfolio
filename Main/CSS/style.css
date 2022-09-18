@@ -18,7 +18,7 @@ header {
     box-shadow: var(--shadow-box);
 }
 .bg-img{
-    background-image: url(./img-files/background.jpg);
+    background-image: url(../img-files/background.jpg);
     
     background-attachment: fixed;
     background-size:cover;
@@ -96,22 +96,10 @@ a:link, a:visited {
     color:white;
 }
 
-
-
 .bg-img:hover {
     box-shadow: 20px 20px 8px grey;
 }
 
-.homework:hover {
-    box-shadow: 20px 20px 8px grey;
-}
-
-.soon:hover {
-    box-shadow: 20px 20px 8px grey;
-}
-.work {
-    font-weight: bold;
-}
 .carousel {
     width:1000px;
     height:500px;
@@ -150,13 +138,25 @@ footer {
     margin-bottom: 50px;
 }
 /* elements to adjust as the screen changes size*/
+@media screen and (max-width: 1000px) {
 
+    .carousel {
+        width: 700px;
+        height: 350px;
+        margin:auto
+      }
+}
 @media screen and (max-width: 700px) {
     .links { flex-direction: column;
              align-items: center;      }
     
    .spacing2 {flex-direction: column;
                align-items: center;}
+    .carousel {
+                width: 500px;
+                height:250px;
+                margin:auto
+              }
 
 }
 
@@ -164,7 +164,7 @@ footer {
     h2 { 
       text-align: center
       !important;
-      color:black;
+      color:white;
       margin-right:13%;
 
     }
@@ -172,6 +172,11 @@ footer {
             margin-left: auto;
             margin-right: auto;
         }
+    .carousel {
+            width: 500px;
+            height:250px;
+            margin:auto
+          }
 }
 
 @media  screen and (max-width: 750px) {
@@ -201,6 +206,10 @@ footer {
     }
     .textover3{
         left:41%;
+    }
+    .about-me{
+        width: 75%;
+        margin-left: -12%;
     }
 }
 
@@ -237,6 +246,13 @@ footer {
         .about-me {
             left: 22%;
         }
-        
+        .carousel {
+            width: 250px;
+            height:125px;
+            margin:auto
+          }
+        .about-me{
+            width: 75%;
+        }
     }
     
