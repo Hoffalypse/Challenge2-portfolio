@@ -1,40 +1,33 @@
 :root {
     --shadow-box:10px 10px 8px black;
-    --border: 10px solid black;
+    --border: 10px solid rgb(50, 29, 168);
     --text-border: 4px dashed black;
-}
-*{
-    font-family: 'Cormorant SC', serif;font-family: 'Cormorant SC', serif;
-  
 }
 
 header {
-    background-color: rgb(10, 94, 119);
+    
+    background: linear-gradient(
+      180deg,
+      rgb(5, 11, 61) 1%,
+      rgb(50, 29, 168) 53%,
+      rgb(228, 9, 9) 100%
+    );
     width: 100%;
     border: 2px solid black ;
     font-weight: bold;
     box-shadow: var(--shadow-box);
 }
-/* .bg-img{
+.bg-img{
     background-image: url(./img-files/background.jpg);
-    background-repeat: no-repeat;
+    
     background-attachment: fixed;
     background-size:cover;
-} */
-body {
-  background: rgb(1, 0, 5);
-  background: radial-gradient(
-    circle,
-    rgba(1, 0, 5, 1) 25%,
-    rgb(10, 94, 119) 50%,
-    rgba(0, 0, 0, 1) 75%
-  );
-  font-family: var(--ff-righteous);
-
 }
 
+body{
+    font-family: 'Cherry Cream Soda', cursive;
 
-
+}
 link {
     display:contents;
 }
@@ -46,7 +39,9 @@ link {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-evenly;    
+    justify-content: space-evenly;   
+    font-family: 'Cherry Cream Soda', cursive;
+
 }
 h1{
     text-align: center;
@@ -62,10 +57,10 @@ li {
     display: inline-block;
     font-size: 25px;
     text-decoration: underline;
-    color: black;
+    color: white;
 }
 a:link, a:visited {
-    color:black;
+    color:white;
 }
 
 /*end of header and beginning of main content*/
@@ -73,7 +68,7 @@ a:link, a:visited {
     display: block;
     width: 50%;
     padding: 20px;
-    background-color: rgb(10, 94, 119);
+    background-color: transparent;
     border: var(--border);
     position: relative;
     left: 25%;
@@ -82,6 +77,7 @@ a:link, a:visited {
     font-size: x-large;
     font-style: italic;
     border-radius: 15px;
+    color: white;
     box-shadow: var(--shadow-box) ;
     }
     
@@ -93,80 +89,16 @@ a:link, a:visited {
         color: white;
     }
 
-.dev {
-    display: block;
-    right: 25%;
-    left: 25%;
-    width: 700px;
-    height: auto;
-    border-radius: 15px;
-    border: var(--border);    
-    object-fit: cover;
-    box-shadow:var(--shadow-box) ;
-}
- .homework {
-    display: inline-block;
-    border-radius: 15px;
-    width: 400px;
-    height:auto;
-    border: var(--border);
-    margin: 25px;
-    box-shadow:var(--shadow-box) ;
-}
-
- .soon {
-    
-    border-radius:15px;
-    width: 400px;
-    border: var(--border);
-    margin: 25px;
-    box-shadow:var(--shadow-box) ;
- }
-
- .space {
-    display: flex;
-    justify-content: center;
-    margin: 25px;
-    
- }
-/*text labeling indiviual Boxes*/
- .textover {
-    position: absolute;
-    left: 38%;
-    background-color: rgb(73, 73, 102);;
-    width:fit-content;
-    font-size: 25px;
-    border-radius: 5px;
-    margin: right 5%;
-    margin-top: -.45%;
-    border:var(--text-border);
-
-}
-
-.textover2 {
-    position: absolute;
-    background-color: rgb(73, 73, 102);
-    font-size: 25px;
+#about {
     color:white;
-    width: fit-content;
-    left: 45%;
-    margin-top: .75%;
-    border-radius: 5px;
-    border:var(--text-border);
+}
+#work {
+    color:white;
 }
 
-.textover3 {
-    position: absolute;
-    font-size: 25px;
-    color:white;
-    width: fit-content;
-    left:45%;
-    margin-top:.75%;
-    background-color: rgb(73, 73, 102);
-    border-radius: 5px;
-    border:var(--text-border);
-}
-.dev:hover {
+
+
+.bg-img:hover {
     box-shadow: 20px 20px 8px grey;
 }
 
@@ -187,14 +119,21 @@ a:link, a:visited {
   }
 /*footer section containing contact information*/
 footer {
-    
-    background-color: rgb(10, 94, 119);
+    color: white;
+    background: linear-gradient(
+        180deg,
+        
+        rgb(228, 9, 9) 1%,
+        rgb(50, 29, 168) 53%,
+        rgb(5, 11, 61) 100%
+      );
     width: 100%;
     height: 100%;
-    margin-bottom: 30px;
+    min-height: 10%;
     border:2px solid black;
     box-shadow: var(--shadow-box);
     font-weight: bold;
+    
 }
 
 .center {

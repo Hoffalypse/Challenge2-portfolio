@@ -1,16 +1,15 @@
-*{
-    font-family: 'Cormorant SC', serif;font-family: 'Cormorant SC', serif;
-    
-}
+
 h1 {
     padding: 10px;
     font-size: 50px;
     color:white;
     text-align: center;
+    /* font-family: 'Cormorant SC', serif;font-family: 'Cormorant SC', serif; */
 }
 header{
     color: white;
     text-align: end;
+    /* font-family: 'Cormorant SC', serif;font-family: 'Cormorant SC', serif; */
 }
 br {
     content: "";
@@ -28,7 +27,8 @@ br {
     padding-top: 100px;
 }
 body{
-    font-family: 'Cormorant SC', serif;font-family: 'Cormorant SC', serif;
+    font-family: 'Cherry Cream Soda', cursive;
+    
     text-align: center;
 
     align-items: center;
@@ -44,5 +44,6 @@ body{
     background-repeat: no-repeat;
     color:white;
     cursor: pointer;
+    font-family: 'Cherry Cream Soda', cursive;
     
 }
