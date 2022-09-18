@@ -18,7 +18,7 @@ This page gives quick access to my contact information and links as well as some
 
 ### Link to Deployed Website
 
-https://hoffalypse.github.io/Challenge2-portfolio/Main/Portfolio
+https://hoffalypse.github.io/Professional-Portfolio/
 
 ## Acknowledgments
 
