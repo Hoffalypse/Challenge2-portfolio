@@ -1,0 +1,48 @@
+*{
+    font-family: 'Cormorant SC', serif;font-family: 'Cormorant SC', serif;
+    
+}
+h1 {
+    padding: 10px;
+    font-size: 50px;
+    color:white;
+    text-align: center;
+}
+header{
+    color: white;
+    text-align: end;
+}
+br {
+    content: "";
+    margin: 2em;
+    display: block;
+    font-size: 24%;
+  }
+.bg-img{
+    background-image: url(./img-files/background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+}
+.move{
+    padding-top: 100px;
+}
+body{
+    font-family: 'Cormorant SC', serif;font-family: 'Cormorant SC', serif;
+    text-align: center;
+
+    align-items: center;
+}
+.button{
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+    border: 2px solid white;
+    font-weight: bold;
+    border-radius: 5px;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    color:white;
+    cursor: pointer;
+    
+}
