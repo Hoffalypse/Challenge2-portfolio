@@ -188,28 +188,8 @@ footer {
     .dev {
         width: 350px;
         height:auto;
-    }
-    .homework{
-        width: 250px;
-        height: auto;
-    }
-    .soon {
-        width: 250px;
-        height:auto;
-     }
-    .about-me {
-        margin-left: -3%;
-    } 
-    .textover {
-        left:35%;
-        margin-top:-3%
-        
-    }
-    .textover2{
-        left:42%;
-    }
-    .textover3{
-        left:41%;
+ 
+  
     }
     .about-me{
         width: 75%;
@@ -233,20 +213,19 @@ footer {
     @media screen and (max-width:450px){
        .about-me{
         font-size: 15px;
+        left: 22%;
        }
-        #photo {
-            margin-left: 38%;
-        }
+        
         h1 {
             margin-left: 6%;
         }
-        .about-me {
-            left: 22%;
-        }
+       .spacing2{
+        margin-left: -10%;
+       }
         .carousel {
             width: 350px;
             height: 175px;
-            margin:auto
+            margin:auto;
           }
         .about-me{
             width: 75%;
