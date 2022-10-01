@@ -10,7 +10,7 @@ header {
       180deg,
       rgb(5, 11, 61) 1%,
       rgb(50, 29, 168) 53%,
-      rgb(228, 9, 9) 100%
+      #EB6937 100%
     );
     width: 100%;
     border: 2px solid black ;
@@ -23,7 +23,14 @@ header {
     background-attachment: fixed;
     background-size:cover;
 }
+.btn{
+    background: transparent;
+    border: none;
+    font-size: 25px;
+    text-decoration: underline;
+    font-weight: bolder;
 
+}
 body{
     font-family: 'Cherry Cream Soda', cursive;
 
@@ -115,7 +122,7 @@ footer {
     background: linear-gradient(
         180deg,
         
-        rgb(228, 9, 9) 1%,
+        #EB6937 1%,
         rgb(50, 29, 168) 53%,
         rgb(5, 11, 61) 100%
       );
